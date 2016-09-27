@@ -1,0 +1,52 @@
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, Arial, sans-serif;
+  color: #20214F;
+  font-size: 16px;
+}
+
+header {
+  margin: 0 auto 10px;
+  max-width: 360px;
+  padding: 20px;
+}
+
+header p {
+  display: inline-block;
+  text-align: center;
+}
+
+header .mensaje {
+  font-size: 16px;
+  width: 64%;
+  color: red;
+}
+
+header .juego {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px 5px;
+  width: 34%;
+}
+
+#celdas {
+  margin: 0 auto;
+  max-width: 360px;
+  width: 100%;
+}
+
+#celdas > div {
+  border: 1px solid #800080;
+  float: left;
+  font-size: 60px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  width: 33.333333%;
+}
